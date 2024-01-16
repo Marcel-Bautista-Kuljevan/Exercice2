@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:viz="http:///www.gexf.net/1.1draft/viz">
+  <meta>
+    <title>Network(3).gexf</title>
+    <authors>GraphMaker</authors>
+    <description>Jacomy Mathieu, Sciences Po Medialab and WebAtlas</description>
+  </meta>
+  <graph defaultedgetype="undirected">
+    <attributes class="node">
+      <attribute id="attr_type" title="attr_type" type="string"/>
+      <attribute id="global_occurrences" title="global_occurrences" type="integer"/>
+      <attribute id="attr_1_8" title="attr_1_8" type="string"/>
+    </attributes>
+    <attributes class="edge">
+      <attribute id="matchings_count" title="matchings_count" type="integer"/>
+    </attributes>
+    <nodes>
+      <node id="artist_b7149547fa90e222eadc75acff17ad51" label="amedeo modigliani">
+        <attvalues>
+          <attvalue for="attr_type" value="Artist"/>
+          <attvalue for="global_occurrences" value="1"/>
+          <attvalue for="attr_1_8" value="Halit Cıngıllıoglu"/>
+        </attvalues>
+        <viz:size/>
+        <viz:position x="55.29958123446779" y="61.115719695963165"/>
+      </node>
+      <node id="artist_eeef6929b5887e943cc4f71e2dbedbda" label="andy warhol">
+        <attvalues>
+          <attvalue for="attr_type" value="Artist"/>
+          <attvalue for="global_occurrences" value="5"/>
+          <attvalue for="attr_1_8" value="Annibale Berlingieri | Anonymous | Jose Mugrabi | Private collection, Zürich | Stefan Edlis"/>
+        </attvalues>
+        <viz:size/>
+        <viz:position x="113.22631383080449" y="38.669636374273686"/>
+      </node>
+      <node id="artist_fc1e403e3d40017808cdf917cb17f5f7" label="barnett newman">
+        <attvalues>
+          <attvalue for="attr_type" value="Artist"/>
+          <attvalue for="global_occurrences" value="2"/>
+          <attvalue for="attr_1_8" value="DIC Corp. | Private Collection"/>
+        </attvalues>
+        <viz:size/>
+        <viz:position x="45.046184876993834" y="14.341335264115218"/>
+      </node>
+      <node id="artist_b357057fd015565ea82434ddd7f80a8b" label="claude monet">
+        <attvalues>
+          <attvalue for="attr_type" value="Artist"/>
+          <attvalue for="global_occurrences" value="1"/>
+          <attvalue for="attr_1_8" value="J. Irwin and Xenia S. Miller"/>
+        </attvalues>
+        <viz:size/>
+        <viz:position x="57.66232840893073" y="91.56329152866326"/>
+      </node>
+      <node id="artist_b2641dc9f4f250db7264e75220e104cf" label="edvard munch">
+        <attvalues>
+          <attvalue for="attr_type" value="Artist"/>
+          <attvalue for="global_occurrences" value="1"/>
+          <attvalue for="attr_1_8" value="Petter Olsen"/>
+        </attvalues>
+        <viz:size/>
+        <viz:position x="88.36267494131368" y="-0.3114173132852396"/>
+      </node>
+      <node id="artist_857b102af3c50af7ad249bc8165ce9fc" label="francis bacon">
+        <attvalues>
+          <attvalue for="attr_type" value="Artist"/>
+          <attvalue for="global_occurrences" value="3"/>
+          <attvalue for="attr_1_8" value="Anonymous | Moueix Family, Château Pétrus | Private Collection"/>
+        </attvalues>
+        <viz:size/>
+        <viz:position x="58.33210682858953" y="56.76149388715681"/>
+      </node>
+      <node id="artist_1a242fe0460d8b54be0fbed3a3627994" label="gustav klimt">
+        <attvalues>
+          <attvalue for="attr_type" value="Artist"/>
+          <attvalue for="global_occurrences" value="2"/>
+          <attvalue for="attr_1_8" value="Maria Altmann"/>
+        </attvalues>
+        <viz:size/>
+        <viz:position x="14.107004105938136" y="99.24791486687452"/>
+      </node>
+      <node id="artist_ca55e6c3308147e824e47574acefce7e" label="hans holbein">
+        <attvalues>
+          <attvalue for="attr_type" value="Artist"/>
+          <attvalue for="global_occurrences" value="1"/>
+          <attvalue for="attr_1_8" value="Donatus, Hereditary Prince of Hesse"/>
+        </attvalues>
+        <viz:size/>
+        <viz:position x="62.11807126104061" y="19.002007471222264"/>
+      </node>
+      <node id="artist_ccd4f29c0e00799c7319efcd15069fa0" label="jackson pollock">
+        <attvalues>
+          <attvalue for="attr_type" value="Artist"/>
+          <attvalue for="global_occurrences" value="1"/>
+          <attvalue for="attr_1_8" value="David Geffen"/>
+        </attvalues>
+        <viz:size/>
+        <viz:position x="104.99010515980274" y="48.87615705288628"/>
+      </node>
+      <node id="artist_6969cea19c59f58f43af1a03f610c8f9" label="jasper johns">
+        <attvalues>
+          <attvalue for="attr_type" value="Artist"/>
+          <attvalue for="global_occurrences" value="2"/>
+          <attvalue for="attr_1_8" value="David Geffen | Jean-Christophe Castelli"/>
+        </attvalues>
+        <viz:size/>
+        <viz:position x="34.44220463628878" y="95.53813910364464"/>
+      </node>
+      <node id="artist_18c7f4b364c35121c68d0a0a5dc657e1" label="kazimir malevich">
+        <attvalues>
+          <attvalue for="attr_type" value="Artist"/>
+          <attvalue for="global_occurrences" value="1"/>
+          <attvalue for="attr_1_8" value="Heirs of Kazimir Malevich"/>
+        </attvalues>
+        <viz:size/>
+        <viz:position x="3.218898143064811" y="0.8600312376109045"/>
+      </node>
+      <node id="artist_464e3cbf5401b1faa7c16618ae797d45" label="leonardo da vinci">
+        <attvalues>
+          <attvalue for="attr_type" value="Artist"/>
+          <attvalue for="global_occurrences" value="1"/>
+          <attvalue for="attr_1_8" value="Robert Simon"/>
+        </attvalues>
+        <viz:size/>
+        <viz:position x="-9.49753264892253" y="8.639393848796086"/>
+      </node>
+      <node id="artist_bfa0e33e74e22e31c7c814ec2613e803" label="mark rothko">
+        <attvalues>
+          <attvalue for="attr_type" value="Artist"/>
+          <attvalue for="global_occurrences" value="4"/>
+          <attvalue for="attr_1_8" value="David Rockefeller, Sr. | Estate of David Pincus | John and Anne Marion | Private Collection"/>
+        </attvalues>
+        <viz:size/>
+        <viz:position x="44.60149606484713" y="28.870406035401885"/>
+      </node>
+      <node id="artist_0b1f50c1b45427bf5e64e8a88a0ace74" label="pablo picasso">
+        <attvalues>
+          <attvalue for="attr_type" value="Artist"/>
+          <attvalue for="global_occurrences" value="10"/>
+          <attvalue for="attr_1_8" value="Frances Lasker Brody estate | Fredrik Roos (sv) | Gidwitz family | Greentree foundation (Whitney family) | McCormick family, Chicago | Robert Saidenberg | Steve Wynn | Wendell Cherry (de) | daughter of Joan Whitney Payson | heir of Roger Janssen?"/>
+        </attvalues>
+        <viz:size/>
+        <viz:position x="57.6298671963104" y="70.67460876274886"/>
+      </node>
+      <node id="artist_df9f72bd14016c8398d04db2166f7f56" label="paul cézanne">
+        <attvalues>
+          <attvalue for="attr_type" value="Artist"/>
+          <attvalue for="global_occurrences" value="2"/>
+          <attvalue for="attr_1_8" value="George Embiricos | Whitney Family"/>
+        </attvalues>
+        <viz:size/>
+        <viz:position x="51.86317834233611" y="42.36357783537582"/>
+      </node>
+      <node id="artist_7a362415baa536439e39454826d91bae" label="peter paul rubens">
+        <attvalues>
+          <attvalue for="attr_type" value="Artist"/>
+          <attvalue for="global_occurrences" value="1"/>
+          <attvalue for="attr_1_8" value="Austrian family"/>
+        </attvalues>
+        <viz:size/>
+        <viz:position x="-7.081415593737249" y="63.60351288431205"/>
+      </node>
+      <node id="artist_bc10e8b2fe839121dffaa4be2e9bd499" label="pierre-auguste renoir">
+        <attvalues>
+          <attvalue for="attr_type" value="Artist"/>
+          <attvalue for="global_occurrences" value="1"/>
+          <attvalue for="attr_1_8" value="Betsey Whitney"/>
+        </attvalues>
+        <viz:size/>
+        <viz:position x="70.38802497590197" y="53.05017456949672"/>
+      </node>
+      <node id="artist_03a0ae0a68fe783249ab60e301dede99" label="pontormo">
+        <attvalues>
+          <attvalue for="attr_type" value="Artist"/>
+          <attvalue for="global_occurrences" value="1"/>
+          <attvalue for="attr_1_8" value="Chauncey Devereaux Stillman"/>
+        </attvalues>
+        <viz:size/>
+        <viz:position x="56.05455401990017" y="77.16706543493133"/>
+      </node>
+      <node id="artist_b888e1be80d0b033beca0aa1d56e54a2" label="qi baishi">
+        <attvalues>
+          <attvalue for="attr_type" value="Artist"/>
+          <attvalue for="global_occurrences" value="1"/>
+          <attvalue for="attr_1_8" value="Liu Yiqian"/>
+        </attvalues>
+        <viz:size/>
+        <viz:position x="96.44935365245873" y="77.9545045498212"/>
+      </node>
+      <node id="artist_3507268af054b2f9afdc662a5e84cec8" label="thomas eakins">
+        <attvalues>
+          <attvalue for="attr_type" value="Artist"/>
+          <attvalue for="global_occurrences" value="1"/>
+          <attvalue for="attr_1_8" value="Thomas Jefferson University"/>
+        </attvalues>
+        <viz:size/>
+        <viz:position x="87.6920841653938" y="90.58367998255711"/>
+      </node>
+      <node id="artist_fd5b007ba7b3c82489c3a123a5f3e404" label="titian">
+        <attvalues>
+          <attvalue for="attr_type" value="Artist"/>
+          <attvalue for="global_occurrences" value="3"/>
+          <attvalue for="attr_1_8" value="AXA insurance company | Duke of Sutherland"/>
+        </attvalues>
+        <viz:size/>
+        <viz:position x="34.95600747112309" y="36.22035670600898"/>
+      </node>
+      <node id="artist_ad4ea41549f121ae44f4d36e8ce256dc" label="vincent van gogh">
+        <attvalues>
+          <attvalue for="attr_type" value="Artist"/>
+          <attvalue for="global_occurrences" value="7"/>
+          <attvalue for="attr_1_8" value="Anonymous | Daughter-in-law of Chester Beatty | Heirs of Jacques Koerfer | Private collection, Zürich | Siegfried Kramarsky family | Son of Emil Georg Bührle | Son of Joan Whitney Payson"/>
+        </attvalues>
+        <viz:size/>
+        <viz:position x="64.32177283166476" y="37.00110929442991"/>
+      </node>
+      <node id="artist_0b4791c271cc08867e8be2276d640715" label="wang meng">
+        <attvalues>
+          <attvalue for="attr_type" value="Artist"/>
+          <attvalue for="global_occurrences" value="1"/>
+          <attvalue for="attr_1_8" value="Anonymous"/>
+        </attvalues>
+        <viz:size/>
+        <viz:position x="66.98207589803754" y="28.33400145445518"/>
+      </node>
+      <node id="artist_31c8632ba5615992ecd56b9c9cacaefe" label="willem de kooning">
+        <attvalues>
+          <attvalue for="attr_type" value="Artist"/>
+          <attvalue for="global_occurrences" value="2"/>
+          <attvalue for="attr_1_8" value="David Geffen"/>
+        </attvalues>
+        <viz:size/>
+        <viz:position x="4.2711663450744695" y="78.12279961025533"/>
+      </node>
+      <node id="buyer_5cd0a82f77dca5d6402b41fe7cd13763" label="alan bond">
+        <attvalues>
+          <attvalue for="attr_type" value="Buyer"/>
+          <attvalue for="global_occurrences" value="1"/>
+          <attvalue for="attr_1_8" value="n/a"/>
+        </attvalues>
+        <viz:size/>
+        <viz:position x="97.0715365486473" y="58.0522164020553"/>
+      </node>
+      <node id="buyer_294de3557d9d00b3d2d8a1e6aab028cf" label="anonymous">
+        <attvalues>
+          <attvalue for="attr_type" value="Buyer"/>
+          <attvalue for="global_occurrences" value="16"/>
+          <attvalue for="attr_1_8" value="n/a"/>
+        </attvalues>
+        <viz:size/>
+        <viz:position x="35.0053112733916" y="21.334639184249504"/>
+      </node>
+      <node id="buyer_9f62dae241e9b4458436270a3e0b5558" label="barilla group">
+        <attvalues>
+          <attvalue for="attr_type" value="Buyer"/>
+          <attvalue for="global_occurrences" value="1"/>
+          <attvalue for="attr_1_8" value="n/a"/>
+        </attvalues>
+        <viz:size/>
+        <viz:position x="77.682705476283" y="99.43212761624926"/>
+      </node>
+      <node id="buyer_5235d2fc6fdce2f2abe411249fd34ac2" label="boris ivanishvili">
+        <attvalues>
+          <attvalue for="attr_type" value="Buyer"/>
+          <attvalue for="global_occurrences" value="1"/>
+          <attvalue for="attr_1_8" value="n/a"/>
+        </attvalues>
+        <viz:size/>
+        <viz:position x="50.51584916519544" y="0.29518418572851823"/>
+      </node>
+      <node id="buyer_4c26ba307b83469169ab745fec2123c2" label="david martinez">
+        <attvalues>
+          <attvalue for="attr_type" value="Buyer"/>
+          <attvalue for="global_occurrences" value="1"/>
+          <attvalue for="attr_1_8" value="n/a"/>
+        </attvalues>
+        <viz:size/>
+        <viz:position x="34.090082559620136" y="47.77405194652884"/>
+      </node>
+      <node id="buyer_effcd6f43c6d256df5defbb1b6aa49e1" label="elaine wynn, ex-wife of steve wynn">
+        <attvalues>
+          <attvalue for="attr_type" value="Buyer"/>
+          <attvalue for="global_occurrences" value="1"/>
+          <attvalue for="attr_1_8" value="n/a"/>
+        </attvalues>
+        <viz:size/>
+        <viz:position x="45.9337113825558" y="-6.776011924543013"/>
+      </node>
+      <node id="buyer_ebf9ccb9e8cbd67e854f006f41e59acc" label="getty museum">
+        <attvalues>
+          <attvalue for="attr_type" value="Buyer"/>
+          <attvalue for="global_occurrences" value="2"/>
+          <attvalue for="attr_1_8" value="n/a"/>
+        </attvalues>
+        <viz:size/>
+        <viz:position x="23.43602422965794" y="69.39939059435861"/>
+      </node>
+      <node id="buyer_dff2b871e985d71f7ddbeafd1017f508" label="hunan tv &amp; broadcast intermediary co">
+        <attvalues>
+          <attvalue for="attr_type" value="Buyer"/>
+          <attvalue for="global_occurrences" value="1"/>
+          <attvalue for="attr_1_8" value="n/a"/>
+        </attvalues>
+        <viz:size/>
+        <viz:position x="37.335182952194465" y="85.88033641831248"/>
+      </node>
+      <node id="buyer_ad4f77a6521d7db12cac22cff1508a60" label="kenneth c. griffin">
+        <attvalues>
+          <attvalue for="attr_type" value="Buyer"/>
+          <attvalue for="global_occurrences" value="1"/>
+          <attvalue for="attr_1_8" value="n/a"/>
+        </attvalues>
+        <viz:size/>
+        <viz:position x="13.77717522581851" y="-6.51945696102244"/>
+      </node>
+      <node id="buyer_b9e2da1d1e578552391a455145850754" label="kenneth thomson">
+        <attvalues>
+          <attvalue for="attr_type" value="Buyer"/>
+          <attvalue for="global_occurrences" value="1"/>
+          <attvalue for="attr_1_8" value="n/a"/>
+        </attvalues>
+        <viz:size/>
+        <viz:position x="74.8654976761469" y="46.711833685581084"/>
+      </node>
+      <node id="buyer_e9236ed1a174c82bfd6fb1c28d53d24d" label="leon black">
+        <attvalues>
+          <attvalue for="attr_type" value="Buyer"/>
+          <attvalue for="global_occurrences" value="1"/>
+          <attvalue for="attr_1_8" value="n/a"/>
+        </attvalues>
+        <viz:size/>
+        <viz:position x="85.5243345368499" y="72.01993842510296"/>
+      </node>
+      <node id="buyer_f39f7f6595be8fdf92ec738b728edf11" label="mitsukoshi">
+        <attvalues>
+          <attvalue for="attr_type" value="Buyer"/>
+          <attvalue for="global_occurrences" value="1"/>
+          <attvalue for="attr_1_8" value="n/a"/>
+        </attvalues>
+        <viz:size/>
+        <viz:position x="90.90291511421192" y="38.41060542897659"/>
+      </node>
+      <node id="buyer_584cea7439e3204045fd8e3dff3e1f3d" label="museum of modern art new york">
+        <attvalues>
+          <attvalue for="attr_type" value="Buyer"/>
+          <attvalue for="global_occurrences" value="1"/>
+          <attvalue for="attr_1_8" value="n/a"/>
+        </attvalues>
+        <viz:size/>
+        <viz:position x="-7.5442859308174075" y="30.776892214543913"/>
+      </node>
+      <node id="buyer_2169f04476c48076666ac2cfc20e2996" label="national galleries of scotland &amp; national gallery, london">
+        <attvalues>
+          <attvalue for="attr_type" value="Buyer"/>
+          <attvalue for="global_occurrences" value="2"/>
+          <attvalue for="attr_1_8" value="n/a"/>
+        </attvalues>
+        <viz:size/>
+        <viz:position x="73.62037188909414" y="6.222079491732158"/>
+      </node>
+      <node id="buyer_688fe1ad0a2e1fb53d5ca12ec8304631" label="philadelphia museum of art">
+        <attvalues>
+          <attvalue for="attr_type" value="Buyer"/>
+          <attvalue for="global_occurrences" value="1"/>
+          <attvalue for="attr_1_8" value="n/a"/>
+        </attvalues>
+        <viz:size/>
+        <viz:position x="4.0711999492169415" y="15.80654861908608"/>
+      </node>
+      <node id="buyer_fe38e819f8e1497bb2f13ad79f30cca1" label="philip niarchos">
+        <attvalues>
+          <attvalue for="attr_type" value="Buyer"/>
+          <attvalue for="global_occurrences" value="1"/>
+          <attvalue for="attr_1_8" value="n/a"/>
+        </attvalues>
+        <viz:size/>
+        <viz:position x="2.238984557068946" y="37.79657745678796"/>
+      </node>
+      <node id="buyer_8a6c5e766fb75573c5a4fbf306c3af5f" label="reinhold würth">
+        <attvalues>
+          <attvalue for="attr_type" value="Buyer"/>
+          <attvalue for="global_occurrences" value="1"/>
+          <attvalue for="attr_1_8" value="n/a"/>
+        </attvalues>
+        <viz:size/>
+        <viz:position x="107.39616849294514" y="68.74487951049801"/>
+      </node>
+      <node id="buyer_0bff7ac930fb7bef86bca32e58695029" label="roman abramovich">
+        <attvalues>
+          <attvalue for="attr_type" value="Buyer"/>
+          <attvalue for="global_occurrences" value="1"/>
+          <attvalue for="attr_1_8" value="n/a"/>
+        </attvalues>
+        <viz:size/>
+        <viz:position x="32.90183370094094" y="53.12732070042876"/>
+      </node>
+      <node id="buyer_bf7bb5402b7725451d076ba2fa4bdc8d" label="ronald lauder, neue galerie">
+        <attvalues>
+          <attvalue for="attr_type" value="Buyer"/>
+          <attvalue for="global_occurrences" value="1"/>
+          <attvalue for="attr_1_8" value="n/a"/>
+        </attvalues>
+        <viz:size/>
+        <viz:position x="22.66549894038018" y="9.97144285536806"/>
+      </node>
+      <node id="buyer_9959403202ed138c944b6445b1d13ed0" label="ryoei saito">
+        <attvalues>
+          <attvalue for="attr_type" value="Buyer"/>
+          <attvalue for="global_occurrences" value="1"/>
+          <attvalue for="attr_1_8" value="n/a"/>
+        </attvalues>
+        <viz:size/>
+        <viz:position x="22.959270810215898" y="41.07590917664397"/>
+      </node>
+      <node id="buyer_c09558d27b10dedd646f953e8cb1d2b3" label="ryoei saito.">
+        <attvalues>
+          <attvalue for="attr_type" value="Buyer"/>
+          <attvalue for="global_occurrences" value="1"/>
+          <attvalue for="attr_1_8" value="n/a"/>
+        </attvalues>
+        <viz:size/>
+        <viz:position x="31.44655350834999" y="2.900670809212871"/>
+      </node>
+      <node id="buyer_bd9a45818f66db12b58ae65ba75ef98d" label="sheikh hamad bin khalifa al-thani">
+        <attvalues>
+          <attvalue for="attr_type" value="Buyer"/>
+          <attvalue for="global_occurrences" value="1"/>
+          <attvalue for="attr_1_8" value="n/a"/>
+        </attvalues>
+        <viz:size/>
+        <viz:position x="-9.366033845401097" y="45.75628710620691"/>
+      </node>
+      <node id="buyer_bbf5d29a1b2b60add7443442ba3876fc" label="state of qatar">
+        <attvalues>
+          <attvalue for="attr_type" value="Buyer"/>
+          <attvalue for="global_occurrences" value="1"/>
+          <attvalue for="attr_1_8" value="n/a"/>
+        </attvalues>
+        <viz:size/>
+        <viz:position x="86.86204669668614" y="15.764654946441642"/>
+      </node>
+      <node id="buyer_c0b2a74214fa2df053d1a87df45038eb" label="stavros niarchos">
+        <attvalues>
+          <attvalue for="attr_type" value="Buyer"/>
+          <attvalue for="global_occurrences" value="1"/>
+          <attvalue for="attr_1_8" value="n/a"/>
+        </attvalues>
+        <viz:size/>
+        <viz:position x="89.94106521683483" y="25.604377223027406"/>
+      </node>
+      <node id="buyer_a8ea471333d176d39fc240c4168b583b" label="steve wynn">
+        <attvalues>
+          <attvalue for="attr_type" value="Buyer"/>
+          <attvalue for="global_occurrences" value="1"/>
+          <attvalue for="attr_1_8" value="n/a"/>
+        </attvalues>
+        <viz:size/>
+        <viz:position x="3.006790628331231" y="22.782552034367587"/>
+      </node>
+      <node id="buyer_a94d76f27ed2c6ca70335a2472f62f54" label="steven a. cohen">
+        <attvalues>
+          <attvalue for="attr_type" value="Buyer"/>
+          <attvalue for="global_occurrences" value="5"/>
+          <attvalue for="attr_1_8" value="n/a"/>
+        </attvalues>
+        <viz:size/>
+        <viz:position x="78.99111751141737" y="64.77873267545371"/>
+      </node>
+      <node id="buyer_dc2581121569e64ce9cd5cd56a7583a8" label="tomonori tsurumaki">
+        <attvalues>
+          <attvalue for="attr_type" value="Buyer"/>
+          <attvalue for="global_occurrences" value="1"/>
+          <attvalue for="attr_1_8" value="n/a"/>
+        </attvalues>
+        <viz:size/>
+        <viz:position x="1.4639033321956134" y="53.407908657097664"/>
+      </node>
+      <node id="buyer_f27c1f59b3caf4df898f716a7f2a0f99" label="walter h. annenberg">
+        <attvalues>
+          <attvalue for="attr_type" value="Buyer"/>
+          <attvalue for="global_occurrences" value="2"/>
+          <attvalue for="attr_1_8" value="n/a"/>
+        </attvalues>
+        <viz:size/>
+        <viz:position x="28.145446463414846" y="64.84522305039575"/>
+      </node>
+      <node id="buyer_b2fbc3d12b9bb1cfcd5c8bc4d62a346e" label="yasuo goto, yasuda comp.">
+        <attvalues>
+          <attvalue for="attr_type" value="Buyer"/>
+          <attvalue for="global_occurrences" value="1"/>
+          <attvalue for="attr_1_8" value="n/a"/>
+        </attvalues>
+        <viz:size/>
+        <viz:position x="5.379114119633755" y="91.63626308936138"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="geid_279_0" source="artist_b7149547fa90e222eadc75acff17ad51" target="buyer_294de3557d9d00b3d2d8a1e6aab028cf">
+        <attvalues>
+          <attvalue for="matchings_count" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_279_1" source="artist_eeef6929b5887e943cc4f71e2dbedbda" target="buyer_294de3557d9d00b3d2d8a1e6aab028cf">
+        <attvalues>
+          <attvalue for="matchings_count" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_279_2" source="artist_eeef6929b5887e943cc4f71e2dbedbda" target="buyer_fe38e819f8e1497bb2f13ad79f30cca1">
+        <attvalues>
+          <attvalue for="matchings_count" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_279_3" source="artist_eeef6929b5887e943cc4f71e2dbedbda" target="buyer_a94d76f27ed2c6ca70335a2472f62f54">
+        <attvalues>
+          <attvalue for="matchings_count" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_279_4" source="artist_fc1e403e3d40017808cdf917cb17f5f7" target="buyer_294de3557d9d00b3d2d8a1e6aab028cf">
+        <attvalues>
+          <attvalue for="matchings_count" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_279_5" source="artist_b357057fd015565ea82434ddd7f80a8b" target="buyer_294de3557d9d00b3d2d8a1e6aab028cf">
+        <attvalues>
+          <attvalue for="matchings_count" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_279_6" source="artist_b2641dc9f4f250db7264e75220e104cf" target="buyer_e9236ed1a174c82bfd6fb1c28d53d24d">
+        <attvalues>
+          <attvalue for="matchings_count" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_279_7" source="artist_857b102af3c50af7ad249bc8165ce9fc" target="buyer_294de3557d9d00b3d2d8a1e6aab028cf">
+        <attvalues>
+          <attvalue for="matchings_count" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_279_8" source="artist_857b102af3c50af7ad249bc8165ce9fc" target="buyer_effcd6f43c6d256df5defbb1b6aa49e1">
+        <attvalues>
+          <attvalue for="matchings_count" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_279_9" source="artist_857b102af3c50af7ad249bc8165ce9fc" target="buyer_0bff7ac930fb7bef86bca32e58695029">
+        <attvalues>
+          <attvalue for="matchings_count" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_279_10" source="artist_1a242fe0460d8b54be0fbed3a3627994" target="buyer_294de3557d9d00b3d2d8a1e6aab028cf">
+        <attvalues>
+          <attvalue for="matchings_count" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_279_11" source="artist_1a242fe0460d8b54be0fbed3a3627994" target="buyer_bf7bb5402b7725451d076ba2fa4bdc8d">
+        <attvalues>
+          <attvalue for="matchings_count" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_279_12" source="artist_ca55e6c3308147e824e47574acefce7e" target="buyer_8a6c5e766fb75573c5a4fbf306c3af5f">
+        <attvalues>
+          <attvalue for="matchings_count" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_279_13" source="artist_ccd4f29c0e00799c7319efcd15069fa0" target="buyer_4c26ba307b83469169ab745fec2123c2">
+        <attvalues>
+          <attvalue for="matchings_count" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_279_14" source="artist_6969cea19c59f58f43af1a03f610c8f9" target="buyer_ad4f77a6521d7db12cac22cff1508a60">
+        <attvalues>
+          <attvalue for="matchings_count" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_279_15" source="artist_6969cea19c59f58f43af1a03f610c8f9" target="buyer_a94d76f27ed2c6ca70335a2472f62f54">
+        <attvalues>
+          <attvalue for="matchings_count" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_279_16" source="artist_464e3cbf5401b1faa7c16618ae797d45" target="buyer_294de3557d9d00b3d2d8a1e6aab028cf">
+        <attvalues>
+          <attvalue for="matchings_count" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_279_17" source="artist_bfa0e33e74e22e31c7c814ec2613e803" target="buyer_294de3557d9d00b3d2d8a1e6aab028cf">
+        <attvalues>
+          <attvalue for="matchings_count" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_279_18" source="artist_bfa0e33e74e22e31c7c814ec2613e803" target="buyer_bd9a45818f66db12b58ae65ba75ef98d">
+        <attvalues>
+          <attvalue for="matchings_count" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_279_19" source="artist_0b1f50c1b45427bf5e64e8a88a0ace74" target="buyer_294de3557d9d00b3d2d8a1e6aab028cf">
+        <attvalues>
+          <attvalue for="matchings_count" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_279_20" source="artist_0b1f50c1b45427bf5e64e8a88a0ace74" target="buyer_9f62dae241e9b4458436270a3e0b5558">
+        <attvalues>
+          <attvalue for="matchings_count" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_279_21" source="artist_0b1f50c1b45427bf5e64e8a88a0ace74" target="buyer_5235d2fc6fdce2f2abe411249fd34ac2">
+        <attvalues>
+          <attvalue for="matchings_count" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_279_22" source="artist_0b1f50c1b45427bf5e64e8a88a0ace74" target="buyer_f39f7f6595be8fdf92ec738b728edf11">
+        <attvalues>
+          <attvalue for="matchings_count" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_279_23" source="artist_0b1f50c1b45427bf5e64e8a88a0ace74" target="buyer_c0b2a74214fa2df053d1a87df45038eb">
+        <attvalues>
+          <attvalue for="matchings_count" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_279_24" source="artist_0b1f50c1b45427bf5e64e8a88a0ace74" target="buyer_a94d76f27ed2c6ca70335a2472f62f54">
+        <attvalues>
+          <attvalue for="matchings_count" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_279_25" source="artist_0b1f50c1b45427bf5e64e8a88a0ace74" target="buyer_dc2581121569e64ce9cd5cd56a7583a8">
+        <attvalues>
+          <attvalue for="matchings_count" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_279_26" source="artist_0b1f50c1b45427bf5e64e8a88a0ace74" target="buyer_f27c1f59b3caf4df898f716a7f2a0f99">
+        <attvalues>
+          <attvalue for="matchings_count" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_279_27" source="artist_df9f72bd14016c8398d04db2166f7f56" target="buyer_294de3557d9d00b3d2d8a1e6aab028cf">
+        <attvalues>
+          <attvalue for="matchings_count" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_279_28" source="artist_df9f72bd14016c8398d04db2166f7f56" target="buyer_bbf5d29a1b2b60add7443442ba3876fc">
+        <attvalues>
+          <attvalue for="matchings_count" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_279_29" source="artist_7a362415baa536439e39454826d91bae" target="buyer_b9e2da1d1e578552391a455145850754">
+        <attvalues>
+          <attvalue for="matchings_count" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_279_30" source="artist_bc10e8b2fe839121dffaa4be2e9bd499" target="buyer_9959403202ed138c944b6445b1d13ed0">
+        <attvalues>
+          <attvalue for="matchings_count" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_279_31" source="artist_03a0ae0a68fe783249ab60e301dede99" target="buyer_ebf9ccb9e8cbd67e854f006f41e59acc">
+        <attvalues>
+          <attvalue for="matchings_count" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_279_32" source="artist_b888e1be80d0b033beca0aa1d56e54a2" target="buyer_dff2b871e985d71f7ddbeafd1017f508">
+        <attvalues>
+          <attvalue for="matchings_count" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_279_33" source="artist_3507268af054b2f9afdc662a5e84cec8" target="buyer_688fe1ad0a2e1fb53d5ca12ec8304631">
+        <attvalues>
+          <attvalue for="matchings_count" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_279_34" source="artist_fd5b007ba7b3c82489c3a123a5f3e404" target="buyer_ebf9ccb9e8cbd67e854f006f41e59acc">
+        <attvalues>
+          <attvalue for="matchings_count" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_279_35" source="artist_fd5b007ba7b3c82489c3a123a5f3e404" target="buyer_2169f04476c48076666ac2cfc20e2996">
+        <attvalues>
+          <attvalue for="matchings_count" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_279_36" source="artist_ad4ea41549f121ae44f4d36e8ce256dc" target="buyer_5cd0a82f77dca5d6402b41fe7cd13763">
+        <attvalues>
+          <attvalue for="matchings_count" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_279_37" source="artist_ad4ea41549f121ae44f4d36e8ce256dc" target="buyer_584cea7439e3204045fd8e3dff3e1f3d">
+        <attvalues>
+          <attvalue for="matchings_count" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_279_38" source="artist_ad4ea41549f121ae44f4d36e8ce256dc" target="buyer_c09558d27b10dedd646f953e8cb1d2b3">
+        <attvalues>
+          <attvalue for="matchings_count" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_279_39" source="artist_ad4ea41549f121ae44f4d36e8ce256dc" target="buyer_a8ea471333d176d39fc240c4168b583b">
+        <attvalues>
+          <attvalue for="matchings_count" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_279_40" source="artist_ad4ea41549f121ae44f4d36e8ce256dc" target="buyer_f27c1f59b3caf4df898f716a7f2a0f99">
+        <attvalues>
+          <attvalue for="matchings_count" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_279_41" source="artist_ad4ea41549f121ae44f4d36e8ce256dc" target="buyer_b2fbc3d12b9bb1cfcd5c8bc4d62a346e">
+        <attvalues>
+          <attvalue for="matchings_count" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_279_42" source="artist_0b4791c271cc08867e8be2276d640715" target="buyer_294de3557d9d00b3d2d8a1e6aab028cf">
+        <attvalues>
+          <attvalue for="matchings_count" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="geid_279_43" source="artist_31c8632ba5615992ecd56b9c9cacaefe" target="buyer_a94d76f27ed2c6ca70335a2472f62f54">
+        <attvalues>
+          <attvalue for="matchings_count" value="2"/>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
