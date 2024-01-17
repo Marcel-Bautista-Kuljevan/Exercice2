@@ -1,0 +1,80 @@
+chart = {
+  const root = d3.hierarchy(data);
+  const links = root.links();
+  const nodes = root.descendants();
+
+  const simulation = d3.forceSimulation(nodes)
+      .force("link", d3.forceLink(links).id(d => d.id).distance(0).strength(3))
+      .force("charge", d3.forceManyBody().strength(-140))
+      .force("x", d3.forceX())
+      .force("y", d3.forceY());
+
+  const svg = d3.create("svg")
+      .attr("viewBox", [-width / 2, -height / 2, width, height]);
+
+  const link = svg.append("g")
+      .attr("stroke", "#999")
+      .attr("stroke-opacity", 0.6)
+    .attr("stroke-width", 0.5)
+    .selectAll("line")
+    .data(links)
+    .join("line");
+
+  const node = svg.append("g")
+      .attr("fill", "#fff")
+      .attr("stroke", "#000")
+      .attr("stroke-width", 1.5)
+    .selectAll("circle")
+    .data(nodes)
+    .join("circle")
+      .attr("fill", d => d.children ? null : "#000")
+      .attr("stroke", d => d.children ? null : "#fff")
+      .attr("r", d => d.children ? 4 : 0)
+      .call(drag(simulation));
+
+  const titre = svg.append("g")
+    .selectAll("text")
+    .data(nodes)
+    .join("text")
+      .attr("font-family", "Arial Narrow")
+      .attr("font-size", "0.6em")
+      .attr("visibility", d => d.children ? null : "hidden")
+      .text(d => d.data.name)
+      .call(drag(simulation));
+  
+  const affiche = svg.append("g")
+    .selectAll("image")
+    .data(nodes)
+    .join("image")
+      .attr("width", 30)
+      .attr("height", 40)
+      .attr("href", d => d.data.name)
+      .call(drag(simulation));
+  
+  node.append("title")
+      .text(d => d.data.name);
+
+  simulation.on("tick", () => {
+    link
+        .attr("x1", d => d.source.x)
+        .attr("y1", d => d.source.y)
+        .attr("x2", d => d.target.x)
+        .attr("y2", d => d.target.y);
+
+    node
+        .attr("cx", d => d.x)
+        .attr("cy", d => d.y);
+
+    titre
+        .attr("x", d => d.x)
+        .attr("y", d => d.y);
+    
+    affiche
+        .attr("x", d => d.x)
+        .attr("y", d => d.y);
+  });
+
+  invalidation.then(() => simulation.stop());
+
+  return svg.node();
+}
